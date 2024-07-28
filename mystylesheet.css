@@ -79,11 +79,6 @@ body{
 
 
 
-
-
-
-
-
 /* Container for slideshow of images*/
 .slideshow-container {
 
@@ -100,3 +95,34 @@ img {
 }
 
 
+/*Resizing for phones and small tablets 1000px or less.*/
+@media (max-width: 1000px) {
+	
+	body{
+		float: right;
+		margin-right: 20%
+	}
+	.birthday-card{
+	width: 140px;
+	height: 198px;
+	background-image:url("images/inside_cover.jpg");
+	background-size: cover;
+	
+		.text {
+		font-size: 50%;
+		
+		.title{
+			font-size: 14px;
+			
+		}
+	
+	}
+	
+	.slideshow-container{
+	  width: 100%;
+	  height:auto;
+	}
+	
+	
+
+}
